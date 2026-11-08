@@ -1,0 +1,41 @@
+========================================================
+         WELCOME TO THE             
+      SMARTCUT PLATE OPTIMIZER SYSTEM        
+========================================================
+
+length and width in m, thickness is in mm
+Enter the cutting blade thickness (kerf): Enter the total number of unique stock plate types available (Maximum 100): 
+--- Stock Plate Type 1 ---
+Enter numeric ID for this plate type: Enter width of this plate: Enter length of this plate: Enter available stock quantity for this plate: 
+--- Stock Plate Type 2 ---
+Enter numeric ID for this plate type: Enter width of this plate: Enter length of this plate: Enter available stock quantity for this plate: 
+Enter the total number of unique required piece sizes needed (Maximum 100): 
+--- Required Piece Type 1 ---
+Enter required width: Enter required length: Enter required quantity: Is rotation allowed for this piece? (Enter 1 for YES, 0 for NO): 
+--- Required Piece Type 2 ---
+Enter required width: Enter required length: Enter required quantity: Is rotation allowed for this piece? (Enter 1 for YES, 0 for NO): 
+========================================================
+             OPTIMIZATION RESULTS     
+========================================================
+Recommended Plate ID: 102
+Recommended Plate Size: 0.8 x 1.6
+Number of Plates Needed: 1
+Total Pieces Produced: 8
+Total Waste Area: 0.4175
+Efficiency Percentage: 67.3828%
+Remaining Stock Quantity of this Plate: 7
+========================================================
+
+========================================================
+       FINANCIAL COST & QUOTATION MODULE      
+========================================================
+Enter the material cost per square unit of area: Enter the cutting labor fee charged per plate: Enter the sales tax rate percentage (e.g., 15 for 15%): 
+--- Financial Summary breakdown ---
+Total Material Cost:           $15.36
+Total Labor/Cutting Cost: $3.5
+--------------------------------------------------------
+Subtotal:                 $18.86
+Tax Amount:                   $2.0746
+--------------------------------------------------------
+FINAL CUSTOMER INVOICE: $20.9346
+========================================================
